@@ -7,14 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Scroll Reveal Library -->
-    <script src="https://unpkg.com/scrollreveal"></script>
     <style>
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: #ffffff;
             color: #1e293b;
-            overflow-x: hidden;
         }
 
         .hero-gradient {
@@ -62,25 +59,6 @@
             width: 100%;
         }
 
-        .form-input {
-            width: 100%;
-            padding: 12px 16px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
-            background-color: #f8fafc;
-            transition: all 0.2s ease;
-        }
-
-        .form-input:focus {
-            outline: none;
-            border-color: #25d366;
-            background-color: #ffffff;
-            box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.1);
-        }
-
-        /* Reveal class for JS */
-        .reveal { visibility: hidden; }
-
         html { scroll-behavior: smooth; }
     </style>
 </head>
@@ -96,7 +74,7 @@
             
             <div class="hidden md:flex items-center gap-10 text-sm font-semibold">
                 <a href="#features" class="nav-link text-slate-600 hover:text-slate-900">Features</a>
-                <a href="#contact" class="nav-link text-slate-600 hover:text-slate-900">Contact</a>
+                <a href="https://otowa.io/login" class="text-slate-600 hover:text-slate-900">Login</a>
                 <a href="https://otowa.io/register" class="btn-primary px-6 py-3 rounded-full text-white shadow-lg">Get Started</a>
             </div>
         </div>
@@ -106,7 +84,7 @@
     <section class="hero-gradient pt-40 pb-20 overflow-hidden">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex flex-col lg:flex-row items-center gap-16">
-                <div class="lg:w-1/2 reveal">
+                <div class="lg:w-1/2">
                     <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-8">
                         Automate Your <br>
                         <span class="text-[#25d366]">WhatsApp Marketing</span>
@@ -126,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="lg:w-1/2 relative reveal">
+                <div class="lg:w-1/2 relative">
                     <div class="bg-white p-4 rounded-3xl shadow-2xl border border-slate-100">
                         <img src="https://otowa.io/images/otowa-dashboard.png" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200'" class="rounded-2xl w-full" alt="Dashboard">
                     </div>
@@ -136,9 +114,9 @@
     </section>
 
     <!-- What is OtoWA? -->
-    <section class="py-24 bg-white reveal">
+    <section class="py-24 bg-white">
         <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-8 text-slate-900">What is OtoWA?</h2>
+            <h2 class="text-3xl font-bold mb-8">What is OtoWA?</h2>
             <p class="text-lg text-slate-600 leading-relaxed">
                 OtoWA is a simple WhatsApp automation and broadcast tool. It allows you to broadcast personalized WhatsApp messages to your contacts. You can use it to engage inactive users, send event reminders, and more.
             </p>
@@ -148,13 +126,13 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-slate-50">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16 reveal">
+            <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-slate-900">Features</h2>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
-                <div class="bg-white p-8 rounded-3xl card-shadow reveal">
+                <div class="bg-white p-8 rounded-3xl card-shadow">
                     <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-[#25d366]">
                         <i class="fa-solid fa-bullhorn text-2xl"></i>
                     </div>
@@ -163,7 +141,7 @@
                 </div>
 
                 <!-- Feature 2 -->
-                <div class="bg-white p-8 rounded-3xl card-shadow reveal">
+                <div class="bg-white p-8 rounded-3xl card-shadow">
                     <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-[#25d366]">
                         <i class="fa-solid fa-robot text-2xl"></i>
                     </div>
@@ -172,7 +150,7 @@
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="bg-white p-8 rounded-3xl card-shadow reveal">
+                <div class="bg-white p-8 rounded-3xl card-shadow">
                     <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-[#25d366]">
                         <i class="fa-solid fa-clock text-2xl"></i>
                     </div>
@@ -181,7 +159,7 @@
                 </div>
 
                 <!-- Feature 4 -->
-                <div class="bg-white p-8 rounded-3xl card-shadow reveal">
+                <div class="bg-white p-8 rounded-3xl card-shadow">
                     <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-[#25d366]">
                         <i class="fa-solid fa-paperclip text-2xl"></i>
                     </div>
@@ -190,7 +168,7 @@
                 </div>
 
                 <!-- Feature 5 -->
-                <div class="bg-white p-8 rounded-3xl card-shadow reveal">
+                <div class="bg-white p-8 rounded-3xl card-shadow">
                     <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-[#25d366]">
                         <i class="fa-solid fa-mobile-screen text-2xl"></i>
                     </div>
@@ -199,12 +177,12 @@
                 </div>
 
                 <!-- Feature 6 -->
-                <div class="bg-white p-8 rounded-3xl card-shadow reveal">
+                <div class="bg-white p-8 rounded-3xl card-shadow">
                     <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 text-[#25d366]">
-                        <i class="fa-solid fa-tools text-2xl"></i>
+                        <i class="fa-solid fa-graduation-cap text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Technical Set-up</h3>
-                    <p class="text-slate-600">Technical support to help you set up and get started.</p>
+                    <h3 class="text-xl font-bold mb-4">Training & Support</h3>
+                    <p class="text-slate-600">Technical support and training included to help you get started.</p>
                 </div>
             </div>
         </div>
@@ -212,7 +190,7 @@
 
     <!-- Alternatives Section -->
     <section class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6 text-center reveal">
+        <div class="max-w-7xl mx-auto px-6 text-center">
             <p class="text-slate-400 font-bold uppercase tracking-widest text-sm mb-12">The affordable alternative to</p>
             <div class="flex flex-wrap justify-center gap-12 md:gap-24 opacity-40 grayscale">
                 <span class="text-3xl font-extrabold italic">Sleekflow</span>
@@ -223,10 +201,10 @@
     </section>
 
     <!-- Use Cases -->
-    <section class="py-24 bg-slate-900 text-white overflow-hidden">
+    <section class="py-24 bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div class="reveal">
+                <div>
                     <h2 class="text-4xl font-bold mb-10">What can you do with OtoWA?</h2>
                     <ul class="space-y-6">
                         <li class="flex items-start gap-4">
@@ -247,7 +225,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="grid grid-cols-2 gap-6 reveal">
+                <div class="grid grid-cols-2 gap-6">
                     <div class="bg-white/5 p-8 rounded-3xl border border-white/10 text-center">
                         <p class="font-bold">Solopreneurs</p>
                     </div>
@@ -267,83 +245,18 @@
 
     <!-- Deal Section -->
     <section class="py-24 bg-white">
-        <div class="max-w-4xl mx-auto px-6 reveal">
+        <div class="max-w-4xl mx-auto px-6">
             <div class="bg-[#25d366]/5 border-2 border-[#25d366]/20 rounded-[40px] p-10 md:p-16 text-center">
                 <span class="bg-[#25d366] text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6 inline-block">Special Deal</span>
                 <h2 class="text-4xl font-bold mb-6">Claim your exclusive PRO Access deal via Daily CMO.</h2>
-                <div class="text-left max-w-xl mx-auto mb-10 text-slate-600">
-                    <ul class="space-y-4">
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-[#25d366]"></i> 2-month Pro access
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-[#25d366]"></i> 5,000 messaging credits
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-[#25d366]"></i> Schedule messages feature
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-[#25d366]"></i> WhatsApp sales course
-                        </li>
-                    </ul>
-                </div>
+                <p class="text-lg text-slate-600 mb-10">
+                    Get 2-month Pro access with 5,000 messaging credits, the schedule messages feature, and a WhatsApp sales course.
+                </p>
                 <div class="flex flex-col items-center">
                     <a href="https://blog.dailycmo.net/otowa/" class="btn-primary px-12 py-5 rounded-2xl text-white font-bold text-xl mb-6">
                         Claim Deal for RM185
                     </a>
                     <p class="text-sm font-bold text-slate-400 uppercase tracking-tighter">Only 200 copies available</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Form Section -->
-    <section id="contact" class="py-24 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid lg:grid-cols-2 gap-16">
-                <div class="reveal">
-                    <h2 class="text-4xl font-bold mb-6 text-slate-900">Get in touch</h2>
-                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-                        Have a question? We’re here to help. Send us a message and we’ll get back to you as soon as possible.
-                    </p>
-                    
-                    <div class="space-y-6">
-                        <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#25d366]">
-                                <i class="fa-solid fa-envelope text-xl"></i>
-                            </div>
-                            <div>
-                                <p class="text-sm text-slate-400 font-semibold uppercase">Email Us</p>
-                                <p class="text-slate-900 font-bold">reuben@dailycmo.net</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white p-8 md:p-10 rounded-[32px] card-shadow reveal">
-                    <form action="#" method="POST" class="space-y-6">
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <label class="block text-sm font-bold text-slate-700 mb-2">Name</label>
-                                <input type="text" placeholder="Your Name" class="form-input" required>
-                            </div>
-                            <div>
-                                <label class="block text-sm font-bold text-slate-700 mb-2">Email</label>
-                                <input type="email" placeholder="your@email.com" class="form-input" required>
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-bold text-slate-700 mb-2">Subject</label>
-                            <input type="text" placeholder="What is this regarding?" class="form-input" required>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-bold text-slate-700 mb-2">Message</label>
-                            <textarea rows="4" placeholder="How can we help you?" class="form-input resize-none" required></textarea>
-                        </div>
-                        <button type="submit" class="w-full btn-primary py-4 rounded-xl text-white font-bold text-lg shadow-lg">
-                            Send Message
-                        </button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -358,9 +271,10 @@
                         <i class="fa-brands fa-whatsapp text-[#25d366]"></i>
                         OtoWA
                     </a>
-                    <p class="text-slate-400 text-sm italic text-center md:text-left">"I'll give you a full refund if you don't find this tool useful. No questions asked. We'll still be friends!"</p>
+                    <p class="text-slate-400 text-sm italic">"I'll give you a full refund if you don't find this tool useful. No questions asked. We'll still be friends!"</p>
                 </div>
                 <div class="flex gap-8 text-sm font-semibold text-slate-500">
+                    <a href="https://otowa.io/login">Login</a>
                     <a href="https://otowa.io/register">Register</a>
                     <a href="mailto:reuben@dailycmo.net">Contact</a>
                 </div>
@@ -370,27 +284,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        // Initialize ScrollReveal
-        const sr = ScrollReveal({
-            origin: 'bottom',
-            distance: '60px',
-            duration: 1200,
-            delay: 200,
-            reset: false,
-            easing: 'cubic-bezier(0.5, 0, 0, 1)'
-        });
-
-        // Apply animations to sections
-        sr.reveal('.reveal', { interval: 100 });
-        
-        // Custom reveal for feature cards to stagger them nicely
-        sr.reveal('#features .card-shadow', { 
-            interval: 100,
-            distance: '40px'
-        });
-    </script>
 
 </body>
 </html>
